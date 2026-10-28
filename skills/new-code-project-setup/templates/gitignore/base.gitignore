@@ -1,0 +1,18 @@
+# --- Secrets & env ---
+.env
+.env.*
+!.env.example
+
+# --- Dependencies (language-specific dirs added in Phase 0) ---
+node_modules/
+
+# --- Generated artifacts ---
+graphify-out/
+
+# --- OS / editor noise ---
+.DS_Store
+Thumbs.db
+*.log
+
+# NOTE (Phase 0): add stack-specific ignores once the stack is chosen —
+# build output (dist/, build/, .expo/), coverage/, __pycache__/, target/, etc.
